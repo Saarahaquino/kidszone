@@ -2,14 +2,15 @@
 *{
     margin: 0;
     padding: 0;
-    color: #999999;
+    color: #0c0c0c;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     list-style-type: none;
     text-decoration: none;
 }
+
 #principal h1, #contato h1 {
-    color: #040531;
+    color: #64881d;
     font-size: 36px;
     font-family: 'Merriweather', serif;
     margin-top: 40px;
@@ -26,7 +27,7 @@
 #cabecalho {
     width: 100%;
     height: 120px;
-    background-color:#0c0fb6;
+    background-color: #ED4273;
 }
 
 #logo img {
@@ -91,16 +92,19 @@
     margin: auto;
     margin-top: 20px;
     width: calc(100% - 30px);
-    background-color:#202183;
-    color: rgb(106, 97, 228);
+    background-color: #45D3F7;
+    color: rgb(255, 255, 255);
     padding: 15px;
+    border-radius: 15px;
 }
 
 .botao:hover {
-    color: #5f52d6;
+    color: #ffffff;
     text-decoration: none;
-    background-color: #5f52d6;
-    transition: background-color 1s;
+    background: transparent;
+    transition: background-color 0.5s;
+    border-radius: 13px;
+    background-color: #6703af;
 }
 
 #quem-somos img {
@@ -127,10 +131,10 @@
 }
 
 #rodape {
-    margin-top: 40px;
+    margin-top: 20px;
     padding-top: 40px;
-    padding-bottom: 90px;
-    background-color:#0c0fb6;
+    padding-bottom: 20px;
+    background-color:#ED4273;
     color: #ffffff;
 }
 
@@ -152,7 +156,7 @@
 
 #rodape button {
     color: #ffffff;
-    background-color:#190d5c;
+    background-color: #11a2a7;
 }
 
 #contato form {
@@ -164,7 +168,7 @@
         width: 320px;
     }
     #menu {
-        background-color: #190d5c;
+        background-color: r;
         padding: 0;
     }
     #menu ul {
@@ -189,7 +193,7 @@
     #texto p {
         text-align: left;
     }
-    #rodape .col-lg-4 {
+    #rodape .col-lg- {
         padding-bottom: 40px;
     }
     #contato h1 {
